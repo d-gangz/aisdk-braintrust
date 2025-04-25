@@ -1,6 +1,6 @@
 # AI Playground Template
 
-A powerful, production-ready Next.js template for building AI-powered applications. Perfect for experimenting with UIs, AI features, and deploying scalable applications.
+A Next.js template focused on experimenting with the [Vercel AI SDK](https://sdk.vercel.ai/docs/introduction) and leveraging [Braintrust](https://www.braintrust.dev/docs/start) for LLM tracing and evaluation. Ideal for rapid prototyping, prompt/model iteration, and robust AI app development with production-ready best practices.
 
 ## Tech Stack
 
@@ -14,9 +14,13 @@ A powerful, production-ready Next.js template for building AI-powered applicatio
 - **Database:** [PostgreSQL](https://www.postgresql.org/) via [Supabase](https://supabase.com/)
 - **ORM:** [Drizzle ORM](https://orm.drizzle.team/)
 - **API:** Next.js Server Actions
+- **AI SDK:** [Vercel AI SDK](https://sdk.vercel.ai/docs/introduction)
+- **Tracing/Eval:** [Braintrust](https://www.braintrust.dev/docs/start)
 
 ## Key Features
 
+- Rapid prototyping with Vercel AI SDK (multi-provider LLMs, tool calling, streaming, etc.)
+- Built-in tracing, monitoring, and evaluation with Braintrust
 - Modern, responsive UI components with shadcn/ui
 - Type-safe database operations with Drizzle ORM
 - Secure authentication with Clerk
@@ -56,6 +60,8 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 ## Development Workflow
 
+- Use Vercel AI SDK for LLM integration, prompt engineering, and tool calling ([docs](https://sdk.vercel.ai/docs/introduction))
+- Use Braintrust for tracing, monitoring, and evaluating LLM interactions ([docs](https://www.braintrust.dev/docs/start))
 - Use server components for data fetching
 - Use client components for interactive UI elements
 - Implement server actions for data mutations
@@ -63,6 +69,8 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 ## Learn More
 
+- [Vercel AI SDK Documentation](https://sdk.vercel.ai/docs/introduction)
+- [Braintrust Documentation](https://www.braintrust.dev/docs/start)
 - [Next.js Documentation](https://nextjs.org/docs)
 - [shadcn/ui Documentation](https://ui.shadcn.com)
 
